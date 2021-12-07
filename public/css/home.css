@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&family=Rubik:ital@0;1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@300;400&family=Rubik:ital@0;1&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,12 +12,10 @@
 }
 
 header {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
+    display: inline;
     width: 100%;
     height: 20vh;
+    padding: 20px;
     text-transform: uppercase;
     font-family: 'Rubik';
     z-index: 3;
@@ -24,12 +25,22 @@ body {
     background-color: #FEF8F5;
 }
 
+.menu {
+    margin-left: 55px;
+}
+
+.menu div {
+    display: inline;
+    margin-left: 168px;
+}
+
 .menu a{
     text-decoration: none white;
     width: 100%;
     color: white;
     cursor: pointer;
     padding: 15px;
+    padding-left: 80px;
 }
 
 .menu button {
@@ -41,7 +52,7 @@ body {
     height: 60px;
     border: none;
     border-radius: 5px;
-    width: 30%;
+    width: 10%;
     cursor: pointer;
 }
 
@@ -88,7 +99,7 @@ body {
 #img-2 {
     position: relative;
     left: 0;
-    top: 108px;
+    top: 146px;
     z-index: -1;
     width: 34%;
 }
@@ -164,6 +175,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     flex-direction: column;
+    box-shadow: -7px 0px 1px #ed4d47;
 }
 
 #question div{
@@ -250,7 +262,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 30vh;
     flex-wrap: wrap;
 }
 
@@ -269,6 +281,7 @@ body {
     text-transform: uppercase;
     flex-direction: column;
     padding-left: 30px;
+    padding-top: 50px;
     flex-grow: 4;
     margin-left: 40px;
 }
@@ -289,7 +302,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 6vh;
     width: 100%;
     flex-wrap: wrap;
     
@@ -326,7 +339,8 @@ body {
     flex-direction: row;
     width: 100%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-grow: 1;
     flex-wrap: nowrap;
 }
 
@@ -346,4 +360,154 @@ body {
     cursor: pointer;
 }
 
+.slide-6 {
+    display: flex;
+    margin-top: 80vh;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    position: relative;
+    position: relative;
+}
 
+.slide-6 img{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+}
+
+.slide-6 article {
+    z-index: 3 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-6 article div {
+    display: flex;
+    box-shadow: -7px 0px #ed4d47;
+    border: 0px;
+    width: 35%;
+    padding: 2rem;
+    margin-left: 8rem;
+    position: relative;
+    top: -115px;
+}
+.slide-6 article div h3 {
+    font-family: 'Rubik';
+    color: white;
+    font-weight: lighter;
+}
+
+#slide-6-truck {
+    position: relative;
+    top: -580px;
+    width: 40%;
+}
+
+.slide-6 form {
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    width: 30%;
+    padding: 30px;
+    background-color: white;
+    height: 62vh;
+    margin-right: 20px;
+    position: relative;
+    top: -330px;
+    right: 270px;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    color: #402B2B;
+}
+
+.slide-6 form input {
+    height: 40px;
+    border-radius: 5px;
+    border-color: #EE4D47 solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.slide-6 form button {
+    background-color: #EE4D47;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-weight: bold;
+    height: 60px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    width: 15%;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.slide-6 textarea {
+
+}
+
+#slide-6-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+
+#slide-6-menu a {
+    text-decoration: none white;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    padding: -10px;
+   
+}
+
+#slide-6-menu img {
+    position: relative;
+    top: 0;
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    flex-direction: row;
+}
+
+footer p {
+    font-family: 'Rubik';
+}
+
+footer ul {
+    display: inline-flex;
+    margin-left: 20px;
+
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+}

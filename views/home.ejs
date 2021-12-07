@@ -86,25 +86,82 @@
     </section>
     <section class="slide-5">
         <h2>About Us</h2>
-        <button class="slide-5-button">
+        <button class="glider-prev">
             <span style="font-size: 32px; color: #EE4D47; padding: 2rem;">
                 <i class="fas fa-arrow-left"></i>
             </span>
         </button>
-        <button class="slide-5-button">
+        <button class="glider-next">
             <span style="font-size: 32px; color: #EE4D47;padding: 2rem;">
                 <i class="fas fa-arrow-right"></i>
             </span>
         </button>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="glider">
+            <div>Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign
+                the permit as the Applicant or Agent for the Permittee.
+                <div id="profile-client">
+                    <img src="/img/Ellipse 9.png" alt="Avatar Isac Peterson">
+                    <p>Isak Pettersson</p>
+                </div>
+            </div>
+            <div id="profile-client">From most barricade or traffic control companies located in the phone book. They
+                employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control
+                plan.
+                <img src="/img/Ellipse 9 (1).png" alt="Avatar Simon Sandberg">
+                <p>Simon Sandberg</p>
+            </div>
+            <div id="profile-client">An A-Line, or access restriction deed is a property right that has been obtained by
+                CDOT for the sole purpose of prohibiting direct
+                <img src="/img/Ellipse 9 (2).png" alt="Avatar">
+                <p>Client Name</p>
+            </div>
         </div>
     </section>
-
+    <section class="slide-6" id="contact">
+        <img src="/img/BG.png" alt="Background">
+        <article>
+            <div>
+                <h3>We provide traffic management consultants so you get started quickly, contact us for a quote today!
+                </h3>
+            </div>
+            <img id="slide-6-truck" src="/img/Group 35.png" alt="Truck">
+        </article>
+        <form action="/sendMessage" method="POST">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Insert your Full Name">
+            <label for="email">Email addres</label>
+            <input type="email" name="email" id="email" placeholder="Your email adress">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Type your message!" rows="7">
+            </textarea>
+            <button type="submit">Get Started &#x2192</button>
+        </form>
+        <div id="slide-6-menu">
+            <a href="/">
+                <img src="/img/logo.png" alt="Trafico Logo">
+            </a>
+            <a href="#about">About</a>
+            <a href="#howTo">How To</a>
+            <a href="#faq">Faqs</a>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright @ 2019</p>
+        <li>
+            <a href="https://www.facebook.com">
+                <ul><img src="/img/f.png" alt=""></ul>
+            </a>
+            <a href="https://www.twitter.com">
+                <ul><img src="/img/t.png" alt=""></ul>
+            </a>
+            <a href="https://www.instagram.com">
+                <ul><img src="/img/i.png" alt=""></ul>
+            </a>
+        </li>
+    </footer>
     <script src="https://kit.fontawesome.com/65b9087097.js" crossorigin="anonymous"></script>
-    </script>
+    <script src="/scripts/glider.js"></script>
+    <script src="/scripts/index.js"></script>
 </body>
 
 </html>
